@@ -1,6 +1,6 @@
 import streamlit as st
 from utils.helpers import load_css
-from views import home, dashboard, settings
+from views import home, dashboard
 
 # Page Configuration
 st.set_page_config(
@@ -38,7 +38,6 @@ st.sidebar.markdown("---")
 menu_options = {
     "🏠 Home": home,
     "📚 My Lectures": dashboard,
-    "⚙ Settings": settings
 }
 
 menu_list = list(menu_options.keys())
