@@ -1,0 +1,9 @@
+streamlit
+faster-whisper
+google-generativeai
+sentence-transformers
+faiss-cpu
+pandas
+pillow
+python-dotenv
+yt-dlp

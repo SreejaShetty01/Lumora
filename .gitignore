@@ -1,0 +1,27 @@
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Database
+database/lumora.db
+*.db
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+
+# FAISS indexes
+database/indexes/
+
+# Temporary files
+temp/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
